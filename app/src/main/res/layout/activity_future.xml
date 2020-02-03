@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/chooseBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginBottom="174dp"
+        android:text="Choose"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="273dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="297dp"
+        android:layout_height="231dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="346dp"
+        android:text="@string/choose"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+</RelativeLayout>
